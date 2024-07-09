@@ -1,0 +1,15 @@
+const accountId="12231"
+let accountName="Vrinda"
+var accountCity="Dehradun" //avoid using 
+accountState="Uttarakhand"
+
+// accountId="13321" //cannot change
+
+console.log(accountId)
+
+accountName="ABC"
+accountState="Rajasthan"
+
+let accountCountry;
+
+console.table([accountCity,accountCountry,accountId,accountName,accountState])
